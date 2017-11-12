@@ -1,0 +1,185 @@
+/*Navigation*/
+.navbar{
+    background-color: rgba(8,8,8,0.7); !important;
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+.navbar-default
+{
+    border-color: #ddd;
+    box-shadow: 0 10px 15px;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+    text-transform: none;
+    font-size: 44px;
+    font-family: 'Lobster', cursive;
+
+}
+.navbar-default .navbar-brand span{
+    color:#e65100;
+}
+.navbar li a{
+    color: #e65100 !important;
+    opacity: 1;
+    font-size: 15px;
+}
+.navbar a:hover{
+    background-color: #111111 !important;
+    opacity: 0.7;
+}
+
+/*form section*/
+        .maindivform{
+            margin: 0;
+            padding:0;
+            font-family: 'Oxygen', sans-serif;
+            letter-spacing: 1px;
+        }
+    section{
+            width:100%;
+            height: 100vh;
+            background:url('image1.jpg');
+            background-size: cover;
+        }
+        .containerform{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 700px;
+            height: 350px;
+            background:rgba(230,81,0,0.7);
+        }
+        .containerform .form_content,
+        .containerform .login_form
+        {
+            position: relative;
+            width: 50%;
+            height: 350px;
+            float: left;
+            box-sizing: border-box;
+        }
+        .containerform .form_content
+        {
+                padding: 40px 30px;
+                color:#fff;
+        }
+        .containerform .form_content h2{
+            font-size: 28px;
+            font-weight: bold;
+            padding-bottom: 20px;
+        }
+        .containerform .form_content p{
+            font-size: 13.5px;
+            padding-bottom: 20px;
+            text-indent: 20px;
+            text-align: justify;
+        }
+        .containerform .form_content a{
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background: #e65100;
+            border-radius: 25px;
+            text-decoration: none;
+            box-shadow: 0 5px 10px rgba(0,0,0,.2);
+        }
+        .containerform .form_content a:hover
+        {
+           color: #e65100;
+            background:#fff ; 
+        }
+
+         .containerform .login_form
+         {
+            background: #fff;
+            height: 380px;
+            top: -15px;
+            box-shadow: -20px 0 15px rgba(0,0,0,0.2);
+            padding: 30px;
+         }
+         .containerform .login_form  h1
+        {
+            color: #262626;
+            font-size: 25px;
+        }    
+        .containerform .login_form input
+        {
+            display:block;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border:2px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+            font-size: 15px;
+        }
+        .containerform .login_form input:hover,
+         .containerform .login_form input:valid
+        {
+            border:2px solid #e65100;
+        }
+         .containerform .login_form input[type="submit"]
+         {
+            color:#fff;
+            background: #e65100;
+            font-size: 16px;
+            transition: .5s;
+         }
+         .containerform .login_form input[type="submit"]:hover
+         {
+            background: #2a2e27;
+            border:2px solid #2a2e27;
+         }
+         .containerform .login_form a
+         {
+                text-decoration: none;
+                font-weight: bold;
+         }
+/*End of login form css*/
+
+
+
+
+
+
+
+/*footer*/
+
+.footer{
+    padding: 30px;
+    color: #dddddd;
+    background-color: #222222;
+}
+.footer .social{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.footer input{
+    height: 40px;
+    width: 160px;
+    padding: 5px;
+    border:none;
+    background-color: #cccccc;
+    color: #000;
+}
+
+.footer .btn{
+    padding: 10px 5px 10px;
+    margin: -3px 0 0 5px;
+
+}
+.footer .btn-success {
+    color: #fff;
+    background-color: #060606;
+    border-color: #040404;
+}

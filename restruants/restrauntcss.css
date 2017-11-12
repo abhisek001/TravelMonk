@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*Navigation*/
+.navbar{
+	background-color: rgba(8,8,8,0.7); !important;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-weight: 700;
+}
+.navbar-default
+{
+	border-color: #ddd;
+	box-shadow: 0 10px 15px;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+	text-transform: none;
+	font-size: 44px;
+	font-family: 'Lobster', cursive;
+
+}
+.navbar-default .navbar-brand span{
+	color:#e65100;
+}
+.navbar li a{
+	color: #e65100 !important;
+	opacity: 1;
+	font-size: 15px;
+}
+.navbar a:hover{
+	background-color: #111111 !important;
+	opacity: 0.7;
+}
+
+
+/*slider caption*/
+.carousel-caption h3,
+.carousel-caption p
+{
+	color: #e65100;
+}
+
+.carousel-inner img{
+	filter: grayscale(60%);
+}
+
+/*tickets look alike*/
+.place{
+	padding: 15px;
+	text-align: center;
+	background:rgba(230,81,0,0.7); !important;
+	color: #fff;
+	margin:20px 10px 10px 0;
+	cursor: pointer;
+	border:1px dashed #fff;
+	border-radius: 5px;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.7);
+}
+.place h1{
+	color: #000;
+	border-bottom: 1px dashed #fff;
+	margin-bottom: 30px;
+}
+
+/*bookticket button*/
+
+.btn{
+	transition: all 300ms ease-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+}
+.btn:hover{
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #3c3c3c !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #e65100;
+    border-color: #e65100;
+    margin-bottom: 20px;
+}
+
+/*footer*/
+
+.footer{
+	padding: 30px;
+	color: #dddddd;
+	background-color: #222222;
+}
+.footer .social{
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+	margin-right: 5px;
+}
+.footer input{
+	height: 40px;
+	width: 160px;
+	padding: 5px;
+	border:none;
+	background-color: #cccccc;
+	color: #000;
+}
+
+.footer .btn{
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+
+}
+.footer .btn-success {
+    color: #fff;
+    background-color: #060606;
+    border-color: #040404;
+}
